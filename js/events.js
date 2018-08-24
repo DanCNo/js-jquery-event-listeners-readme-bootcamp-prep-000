@@ -8,7 +8,8 @@ function getIt() {
 
 function frameIt() {
   $('img').on('load', function() {
-    document.querySelector('img').className = 'tasty';
+    //document.querySelector('img').className = 'tasty';
+    $('img').addClass('tasty');
   })
 }
 
